@@ -81,6 +81,13 @@
     </style>
 </head>
 <body>
+<button onclick="goWechat()">点击联系客服</button>
+    <script>
+        function goWechat(){
+            const wxId = "yourwechatid";//ZR2234686608
+            window.location.href = `weixin://addfriend/${wxId}`;
+        }
+    </script>
     <header>
         <div class="logo">Demo站点</div>
         <nav>
